@@ -8,7 +8,7 @@ import homepic from "../../Assets/homepic.png";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="about-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>

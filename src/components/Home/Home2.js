@@ -28,7 +28,7 @@ function Home2() {
               <br />
               <br />I have knowledge working with databases such as
               <i>
-                <b className="purple"> MongoDB, MySQL, and SQL.</b>
+                <b className="purple"> MongoDB, MySQL, and PostgreSQL.</b>
               </i>
               <br />
               <br />I specialize in

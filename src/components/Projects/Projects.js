@@ -2,13 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import almacafe from "../../Assets/Projects/almacafe.png";
-
+import webscraping from "../../Assets/Projects/webscraping.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" style={{ minHeight: "100vh" }}>
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -18,7 +17,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card aspect-ratio-box">
             <ProjectCard
               imgPath={almacafe}
               isBlog={false}
@@ -31,13 +30,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={webscraping}
               isBlog={false}
-              title="Web Scrapping System"
+              title="Web Scraping System"
               description="
               A system for popular streamer information, includes filters, a search bar, column sorting, and CSV data download."              
               ghLink="/"
-              demoLink="/"
+              demoLink="https://ws-streamers-frontend-krjzqq3ih-aldanas-projects-24d1fdff.vercel.app"
             />
           </Col>
         </Row>
