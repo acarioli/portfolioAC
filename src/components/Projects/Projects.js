@@ -36,7 +36,7 @@ function Projects() {
               description="
               A system for popular streamer information, includes filters, a search bar, column sorting, and CSV data download."              
               ghLink="/"
-              demoLink="https://ws-streamers-frontend-krjzqq3ih-aldanas-projects-24d1fdff.vercel.app"
+              demoLink="https://ws-streamers-frontend.vercel.app"
             />
           </Col>
         </Row>
